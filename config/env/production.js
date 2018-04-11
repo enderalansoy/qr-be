@@ -59,6 +59,10 @@ module.exports = {
       //  ```
       //--------------------------------------------------------------------------
 
+      adapter: 'sails-mongo',
+      url: 'mongodb://eren:1234@ds135179.mlab.com:35179/qrdb',  
+
+      
       /****************************************************************************
       *                                                                           *
       * More adapter-specific options                                             *
@@ -118,7 +122,7 @@ module.exports = {
   *                                                                         *
   ***************************************************************************/
   blueprints: {
-    shortcuts: false,
+    shortcuts: true,
   },
 
 
@@ -148,9 +152,9 @@ module.exports = {
     *                                                                          *
     ***************************************************************************/
     cors: {
-      // allowOrigins: [
-      //   'https://example.com',
-      // ]
+      allowOrigins: [
+        'https://warm-crag-35465.herokuapp.com/',
+      ]
     },
 
   },
@@ -371,7 +375,7 @@ module.exports = {
   *                                                                         *
   ***************************************************************************/
   custom: {
-    baseUrl: 'https://example.com',
+    baseUrl: 'https://warm-crag-35465.herokuapp.com/',
     internalEmailAddress: 'support@example.com',
 
     // mailgunDomain: 'mg.example.com',
