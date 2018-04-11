@@ -153,7 +153,7 @@ module.exports = {
     ***************************************************************************/
     cors: {
       allowOrigins: [
-        'https://warm-crag-35465.herokuapp.com/',
+        'https://warm-crag-35465.herokuapp.com',
       ]
     },
 
