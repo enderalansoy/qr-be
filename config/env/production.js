@@ -374,7 +374,7 @@ module.exports = {
   *                                                                         *
   ***************************************************************************/
   custom: {
-    baseUrl: 'https://warm-crag-35465.herokuapp.com/',
+    baseUrl: 'https://warm-crag-35465.herokuapp.com',
     internalEmailAddress: 'support@example.com',
 
     // mailgunDomain: 'mg.example.com',
